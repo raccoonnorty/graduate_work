@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="ru">
+	<head>
+		<title>Дипломная работа</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta http-equiv="X-UA-Compatible" content="ie=edge">
+		<link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+		<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+		<link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+		<link rel="manifest" href="site.webmanifest">
+		<link rel="mask-icon" href="safari-pinned-tab.svg" color="#5bbad5">
+		<meta name="msapplication-TileColor" content="#00aba9">
+		<meta name="theme-color" content="#ffffff">
+		<link rel="stylesheet" href="swiper.min.css">
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<script src="js/jquery-3.5.0.min.js"></script>
+		<script src="https://use.fontawesome.com/ee850feaca.js" async></script>
+		<script src="js/swiper.min.js"></script>
+		<script src="js/jquery.inputmask.min.js"></script>
+		<script src="js/script.js"></script>
+	</head>
+	<body>
+		<header>
+			<div class="popup">
+				<div class="popup__form-container flex-container">
+					<div class="popup__form-container__container-button flex-container">
+						<a href="#" class="popup__form-container__container-button__button-mobile">
+							<span class="popup__form-container__container-button__button-mobile__top"></span>
+							<span class="popup__form-container__container-button__button-mobile__bottom"></span>
+						</a>
+					</div>
+					<form class="popup__form-container__form flex-container" id="form">
+						<label class="popup__form-container__form__name default" for="name">Введите своё имя:</label>
+						<input class="popup__form-container__form__name-input default-input" type="text" placeholder="Иван" id="name" name="name">
+						<label class="popup__form-container__form__phone default" for="phone">Введите свой номер телефона:</label>
+						<input class="popup__form-container__form__phone-input default-input" type="tel" placeholder="+7 (___) ___-__-__" id="phone" name="phone">
+						<label class="popup__form-container__form__email default" for="email">Введите свою почту:</label>
+						<input class="popup__form-container__form__email-input default-input" type="email" placeholder="default@example.com" id="email" name="email">
+						<button class="popup__form-container__form__button default-button" type="button" id="send-button">Отправить</button>
+					</form>
+					<div id="error-message"></div>
+				</div>
+			</div>
+			<div class="popup-easy">
+				<div class="popup-easy__form-container flex-container">
+					<div class="popup-easy__form-container__container-button flex-container">
+						<a href="#" class="popup-easy__form-container__container-button__button-mobile">
+							<span class="popup-easy__form-container__container-button__button-mobile__top"></span>
+							<span class="popup-easy__form-container__container-button__button-mobile__bottom"></span>
+						</a>
+					</div>
+					<form class="popup-easy__form-container__form-easy flex-container" id="form-easy">
+						<label class="popup-easy__form-container__form-easy__name default" for="name">Введите своё имя:</label>
+						<input class="popup-easy__form-container__form-easy__name-input default-input" type="text" id="name-easy" placeholder="Иван" name="name">
+						<label class="popup-easy__form-container__form-easy__email default" for="email">Введите свою почту:</label>
+						<input class="popup-easy__form-container__form-easy__email-input default-input" type="email" id="email-easy" placeholder="default@example.com" name="email">
+						<button class="popup-easy__form-container__form-easy__button default-button" type="button" id="send-button-easy" name="button">Отправить</button>
+					</form>
+					<div id="error-message-easy"></div>
+				</div>
+			</div>
+			<div class="menu">
+				<div class="menu__container-button flex-container">
+					<a class="menu__container-button__exitButtom">
+						<span class="menu__container-button__exitButtom-top"></span>
+						<span class="menu__container-button__exitButtom-bottom"></span>
+					</a>
+				</div>
+				<ul class="menu__list flex-container">
+					<li class="menu__list__list-item"><a class="header-link-mobile" href="#block-skills">Услуги</a></li>
+					<li class="menu__list__list-item"><a class="header-link-mobile" href="#block-portfolio">Портфолио</a></li>
+					<li class="menu__list__list-item"><a class="header-link-mobile" href="#block-price">Стоимость</a></li>
+				</ul>
+			</div>
+			<div class="container fixed-container">
+				<div class="container__header flex-container">
+					<div class="container__header__content">
+						<a class="container__header__content__services header-link" href="#block-skills">Услуги</a>
+						<a class="container__header__content__portfolio header-link" href="#block-portfolio">Портфолио</a>
+						<a class="container__header__content__cost header-link" href="#block-price">Стоимость</a>
+					</div>
+					<a href="#" class="container__header__button">
+						<span class="container__header__button__top header-burger"></span>
+						<span class="container__header__button__middle header-burger"></span>
+						<span class="container__header__button__bottom header-burger"></span>
+					</a>
+					<div class="container__header__contacts">
+						<a class="container__header__contacts__number" href="tel:+74999955577">+7 (499) 995-55-77</a>
+						<button class="container__header__contacts__button">Заказать звонок</button>
+					</div>
+					<button class="container__header__button-mobile"></button>
+				</div>
+			</div>
+			<div class="container__background">
+				<span class="container__background__brace">{ }</span>
+				<span class="container__background__lattice">#</span>
+				<span class="container__background__code">&lt;/&gt;</span>
+				<span class="container__background__code-mobile">&lt;/&gt;</span>
+				<span class="container__background__div_s">&lt;div&gt;</span>
+				<span class="container__background__div_m">&lt;div&gt;</span>
+			</div>
+			<div class="container fixed-container">
+				<div class="container__text flex-container">
+					<h1 class="container__text__title">Дмитрий Алексеев</h1>
+					<h2 class="container__text_subtitle">Frontend-разработчик и веб-верстальщик</h2>
+					<button class="container__text__button order">Узнать больше</button>
+				</div>
+			</div>
+		</header>
+		<main>
+			<div class="container fixed-container">
+				<div class="container__text-mobile">
+					<h1 class="container__text-mobile__title">Дмитрий Алексеев</h1>
+					<h2 class="container__text-mobile__subtitle">Frontend-разработчик и веб-верстальщик</h2>
+					<button class="container__text-mobile__button order">Узнать больше</button>
+				</div>
+				<div class="container__block-skills" id="block-skills">
+					<div class="container__block-skills__container-flex flex-container">
+						<h2 class="container__block-skills__container-flex__title">Что я делаю</h2>
+					</div>
+					<div class="container__block-skills__list flex-container">
+						<div class="container__block-skills__list__item">
+							<span class="container__block-skills__list__item__background-computer flex-container"></span>
+							<h3 class="container__block-skills__list__item__title">
+								Вёрстка лендинг–страниц и сайтов любой сложности
+							</h3>
+						</div>
+						<div class="container__block-skills__list__item">
+							<span class="container__block-skills__list__item__background-devices flex-container"></span>
+							<h3 class="container__block-skills__list__item__title">
+								Адаптивная вёрстка под все браузеры и устройства
+							</h3>
+						</div>
+						<div class="container__block-skills__list__item">
+							<span class="container__block-skills__list__item__background-c flex-container"></span>
+							<h3 class="container__block-skills__list__item__title">
+								Frontend–разработка и программирование
+							</h3>
+						</div>
+						<div class="container__block-skills__list__item">
+							<span class="container__block-skills__list__item__background-code flex-container"></span>
+							<h3 class="container__block-skills__list__item__title">
+								Исправление и доработка существующей вёрстки
+							</h3>
+						</div>
+					</div>
+					<div class="container__block-skills__container-flex flex-container">
+						<button class="container__block-skills__container-flex__button order">Узнать стоимость</button>
+					</div>
+				</div>
+			</div>
+			<div class="block-portfolio">
+				<div class="block-portfolio__container fixed-container">
+					<div class="block-portfolio__container-button flex-container" id="block-portfolio">
+						<h2 class="block-portfolio__container-button__title">Примеры моих работ</h2>
+					</div>
+					<div class="block-portfolio__container__slider-container">
+						<div class="block-portfolio__container__slider-container__button-prev swiper-button-prev"></div>
+					    <div class="block-portfolio__container__slider-container__button-next swiper-button-next"></div>
+						<div class="block-portfolio__container__slider-container__swiper swiper-container">
+						    <div class="block-portfolio__container__slider-container__swiper__wrapper swiper-wrapper">
+						        <div class="block-portfolio__container__slider-container__swiper__wrapper__slide swiper-slide">
+						        	<picture class="block-portfolio__container__slider-container__swiper__wrapper__slide__picture">
+						        		<source class="block-portfolio__container__slider-container__swiper__wrapper__slide__picture__source" srcset="img/image-1.webp" type="image/webp">
+						        		<img class="block-portfolio__container__slider-container__swiper__wrapper__slide__picture__image" src="img/image-1.jpg" alt="Фотография сайта">
+						        	</picture>
+						        	<h2 class="block-portfolio__container__slider-container__swiper__wrapper__slide__title slider-default-title">
+						        		Сайт психолога Веры Антоновой
+						        	</h2>
+						        </div>
+						        <div class="block-portfolio__container__slider-container_swiper__wrapper__slide swiper-slide">
+						        	<picture class="block-portfolio__container__slider-container__swiper__wrapper__slide__picture">
+						        		<source class="block-portfolio__container__slider-container__swiper__wrapper__slide__picture__source" srcset="img/image-2.webp" type="image/webp">
+						        		<img class="block-portfolio__container__slider-container__swiper__wrapper__slide__picture__image" src="img/image-2.jpg" alt="Фотография сайта">
+						        	</picture>
+						        	<h2 class="block-portfolio__container__slider-container__swiper__wrapper__slide__title slider-default-title">
+						        		Сайт магазина детской одежды
+						        	</h2>
+						        </div>
+						        <div class="block-portfolio__container__slider-container__swiper__wrapper__slide swiper-slide">
+						        	<picture class="block-portfolio__container__slider-container__swiper__wrapper__slide__picture">
+						        		<source class="block-portfolio__container__slider-container__swiper__wrapper__slide__picture__source" srcset="img/image-3.webp" type="image/webp">
+						        		<img class="block-portfolio__container__slider-container__swiper__wrapper__slide__picture__image" src="img/image-3.jpg" alt="Фотография сайта">
+						        	</picture>
+						        	<h2 class="block-portfolio__container__slider-container__swiper__wrapper__slide__title slider-default-title">
+						        		Сайт магазина «Рыболов»
+						        	</h2>
+						        </div>
+						    </div>
+						    <div class="block-portfolio__container__slider-container__swiper__pagination swiper-pagination"></div>
+						</div>
+					</div>
+					<div class="block-portfolio__container-button flex-container">
+						<button class="block-portfolio__container-button__button order">Заказать проект</button>
+					</div>
+				</div>
+			</div>
+			<div class="container__block-price" id="block-price">
+				<div class="container__block-price__background">
+					<span class="container__block-price__background__brace_s">{ }</span>
+					<span class="container__block-price__background__brace_m">{ }</span>
+					<span class="container__block-price__background__lattice">#</span>
+					<span class="container__block-price__background__code">&lt;/&gt;</span>
+					<span class="container__block-price__background__div">&lt;div&gt;</span>
+				</div>
+				<div class="container__block-price__content fixed-container">
+					<div class="container__block-price__content__text flex-container">
+						<h2 class="container__block-price__content__text__title">Адаптивная вёрстка под все устройства и&nbsp;браузеры от 1000 рублей всего за 4 часа.*</h2>
+						<h3 class="container__block-price__content__text__subtitle">* Срок и стоимость могут отличаться от заявленных и рассчитываются  индивидуально, в&nbsp;зависимости&nbsp;от&nbsp;сложности задач.</h3>
+					</div>
+				</div>
+			</div>
+		</main>
+		<footer>
+			<div class="container fixed-container">
+				<div class="container__footer-block flex-container">
+					<span class="container__footer-block__text flex-container">
+						<a class="container__footer-block__text__services footer-link" href="#block-skills">Услуги</a>
+						<a class="container__footer-block__text__portfolio footer-link" href="#block-portfolio">Портфолио</a>
+						<a class="container__footer-block__text__cost footer-link" href="#block-price">Стоимость</a>
+					</span>
+					<span class="container__footer-block__contacts flex-container">
+						<a class="container__footer-block__contacts__number footer-contacts-link" href="tel:+74999955577"><i class="fa fa-phone" aria-hidden="true"></i>+7 (499) 995-55-77</a>
+						<a class="container__footer-block__contacts__email footer-contacts-link" href="mailto:dmitry@alekseev.com"><i class="fa fa-envelope"></i>dmitry@alekseev.com</a>
+					</span>
+					<span class="container__footer-block__props flex-container">
+						<button class="container__footer-block__props__button">Заказать звонок</button>
+						<span class="container__footer-block__props__socials">
+							<a href="https://www.vk.com/" class="container__footer-block__props__socials__vk" target="_blank"></a>
+							<a href="https://www.facebook.com/" class="container__footer-block__props__socials__fb" target="_blank"></a>
+							<a href="https://twitter.com/explore" class="container__footer-block__props__socials__twitter" target="_blank"></a>
+							<a href="https://www.instagram.com/" class="container__footer-block__props__socials__instagram" target="_blank"></a>
+						</span>
+					</span>
+				</div>
+			</div>
+			<div class="footer-block-copy">
+				<div class="container__footer-block-copy fixed-container">
+					<h2 class="container__footer-block-copy__text">&copy; Дмитрий Алексеев, 2016 - 2018</h2>
+				</div>
+			</div>
+		</footer>
+	</body>
+</html>
